@@ -1,0 +1,6 @@
+<div class="text-center" style="margin-top:2%;">
+    <input type="file" name="audio" id="fileUploadID" ng2FileSelect [uploader]="uploader" multiple/>
+    <button type="button" class="btn btn-success btn-s" (click)="uploader.uploadAll()" [disabled]="!uploader.getNotUploadedItems().length">
+      Send
+    </button>
+  </div>

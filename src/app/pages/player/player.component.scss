@@ -1,0 +1,62 @@
+.container {
+    .main-toolbar {
+      .spacer {
+        flex: 1 1 auto;
+      }
+      .toolbar-btn {
+        font-size: 16px;
+        margin-right:5px;
+        cursor: pointer;
+      }
+      position: fixed;
+      top: 0;
+      z-index: 2;
+    }
+    .item-gradient{
+      background-image: linear-gradient(to right, rgba(255,0,0,0), #3e50b5);
+    }
+  
+    .content {
+      .logo {
+        margin: 4.5rem;
+        text-align: center;
+        font-size:24px;
+        color: #3f51b5;
+        .mat-icon{
+          height:160px !important;
+          width:160px !important;
+          font-size:140px !important;
+        }
+      }
+      margin-bottom: 136px;
+      overflow: auto;
+    }
+  
+    .media-footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      .time-slider {
+        width: 100% !important;
+        margin-left:20px;
+        margin-right:20px;
+      }
+      .media-action-bar {
+        width: 100%;
+        padding:2.5rem;
+        justify-content: center;
+        .mat-icon{
+          height:38px !important;
+          width:38px !important;
+          font-size:38px !important;
+        }
+      }
+    }
+  }
+
+  .gradient{
+    background-image: linear-gradient(to right, rgb(255, 0, 0), #3e50b5) !important;
+  }
+  mat-toolbar.mat-primary {
+    color: #fff;
+}
