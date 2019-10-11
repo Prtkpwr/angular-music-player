@@ -7,8 +7,8 @@ export const environment = {
   auth0: {
     clientID: 'NtCkn5QwFGk1rjv9mUsoXmTquUA5MoKw',
     domain: 'auth-prtkpwr.auth0.com',
-    redirectUri: 'http://localhost:4200',
-    logoutUrl: 'http://localhost:4200'
+    redirectUri: 'https://audio-player-b816b.firebaseapp.com/',
+    logoutUrl: 'https://audio-player-b816b.firebaseapp.com/'
   }
 };
 /*
