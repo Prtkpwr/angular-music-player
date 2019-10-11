@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FileSelectDirective } from 'ng2-file-upload';
+import { FileUploadModule } from 'ng2-file-upload';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,8 +16,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     PlayerComponent,
     ProfileComponent,
-    BottomSheetOverviewExampleSheet,
-    FileSelectDirective
+    BottomSheetOverviewExampleSheet
   ],
   imports: [
     BrowserModule,
@@ -25,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FileUploadModule
   ],
   providers: [],
   bootstrap: [AppComponent],
